@@ -39,12 +39,16 @@ namespace ValidaCertificado
                 if (cert.NotAfter > DateTime.Now)
 
                 {
+                    //Console.WriteLine(cert.NotAfter.ToString("dd - MM - yyyy HH: mm:sszzz") + " - VÁLIDO");
                     lblFechaVencimiento.Text = cert.NotAfter.ToString("dd - MM - yyyy HH: mm:sszzz") + " - VÁLIDO";
                 }
                 else
                 {
+                    //Console.WriteLine(cert.NotAfter.ToString("dd - MM - yyyy HH: mm:sszzz") + " - INVÁLIDO");
                     lblFechaVencimiento.Text = cert.NotAfter.ToString("dd - MM - yyyy HH: mm:sszzz") + " - INVÁLIDO";
                 }
+
+                //Console.Read();
             }
             catch (Exception ex)
             {
