@@ -73,13 +73,6 @@ namespace ValidaCertificado
                 //X509Certificate2 cert2 = new X509Certificate2(bytes);
                 //----
 
-
-
-
-
-                string prueba = "";
-
-
                 //Console.Read();
             }
             catch (Exception ex)

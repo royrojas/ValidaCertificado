@@ -102,7 +102,7 @@ namespace ValidaCertificado
             }
             catch (Exception ex)
             {
-                throw new Exception("Error al identificar la configuracion de acceso");
+                throw new Exception($"Error al identificar la configuracion de acceso - {ex.Message}");
             }
         }
     }
