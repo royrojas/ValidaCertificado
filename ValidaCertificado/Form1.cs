@@ -65,7 +65,9 @@ namespace ValidaCertificado
                 txtCripto2.Text = cert.FriendlyName;
                 txtCripto3.Text = cert.SerialNumber;
 
-                MessageBox.Show(cert2.NotAfter.ToString("dd - MM - yyyy HH: mm:sszzz") + " - " + cert2.Subject);
+                txtDatos.Text = cert2.Subject;
+
+                //MessageBox.Show(cert2.NotAfter.ToString("dd - MM - yyyy HH: mm:sszzz") + " - " + cert2.Subject);
 
                 //----
                 //this.txtRawData.Text = System.Text.Encoding.UTF8.GetString(cert.RawData);

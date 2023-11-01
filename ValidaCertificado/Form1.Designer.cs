@@ -44,6 +44,9 @@
             this.btnCripto = new System.Windows.Forms.Button();
             this.txtCripto4 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.txtDatos = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtCertificado
@@ -128,36 +131,36 @@
             // 
             // txtRawData
             // 
-            this.txtRawData.Location = new System.Drawing.Point(12, 135);
+            this.txtRawData.Location = new System.Drawing.Point(12, 258);
             this.txtRawData.Multiline = true;
             this.txtRawData.Name = "txtRawData";
-            this.txtRawData.Size = new System.Drawing.Size(381, 196);
+            this.txtRawData.Size = new System.Drawing.Size(381, 168);
             this.txtRawData.TabIndex = 9;
             // 
             // txtCripto1
             // 
-            this.txtCripto1.Location = new System.Drawing.Point(11, 360);
+            this.txtCripto1.Location = new System.Drawing.Point(12, 432);
             this.txtCripto1.Name = "txtCripto1";
             this.txtCripto1.Size = new System.Drawing.Size(382, 20);
             this.txtCripto1.TabIndex = 10;
             // 
             // txtCripto2
             // 
-            this.txtCripto2.Location = new System.Drawing.Point(11, 385);
+            this.txtCripto2.Location = new System.Drawing.Point(12, 457);
             this.txtCripto2.Name = "txtCripto2";
             this.txtCripto2.Size = new System.Drawing.Size(382, 20);
             this.txtCripto2.TabIndex = 11;
             // 
             // txtCripto3
             // 
-            this.txtCripto3.Location = new System.Drawing.Point(11, 411);
+            this.txtCripto3.Location = new System.Drawing.Point(12, 483);
             this.txtCripto3.Name = "txtCripto3";
             this.txtCripto3.Size = new System.Drawing.Size(382, 20);
             this.txtCripto3.TabIndex = 12;
             // 
             // btnCripto
             // 
-            this.btnCripto.Location = new System.Drawing.Point(11, 463);
+            this.btnCripto.Location = new System.Drawing.Point(12, 535);
             this.btnCripto.Name = "btnCripto";
             this.btnCripto.Size = new System.Drawing.Size(75, 23);
             this.btnCripto.TabIndex = 13;
@@ -167,14 +170,14 @@
             // 
             // txtCripto4
             // 
-            this.txtCripto4.Location = new System.Drawing.Point(11, 437);
+            this.txtCripto4.Location = new System.Drawing.Point(12, 509);
             this.txtCripto4.Name = "txtCripto4";
             this.txtCripto4.Size = new System.Drawing.Size(382, 20);
             this.txtCripto4.TabIndex = 14;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(11, 492);
+            this.button2.Location = new System.Drawing.Point(12, 564);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 15;
@@ -182,11 +185,40 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // txtDatos
+            // 
+            this.txtDatos.Location = new System.Drawing.Point(12, 119);
+            this.txtDatos.Multiline = true;
+            this.txtDatos.Name = "txtDatos";
+            this.txtDatos.Size = new System.Drawing.Size(381, 111);
+            this.txtDatos.TabIndex = 16;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(13, 242);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "RAW Data";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(13, 103);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 13);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "Datos Certificado";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(405, 536);
+            this.ClientSize = new System.Drawing.Size(405, 599);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtDatos);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtCripto4);
             this.Controls.Add(this.btnCripto);
@@ -230,6 +262,9 @@
         private System.Windows.Forms.Button btnCripto;
         private System.Windows.Forms.TextBox txtCripto4;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtDatos;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
